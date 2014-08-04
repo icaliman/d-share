@@ -1,0 +1,40 @@
+{
+  "name": "d-datepicker",
+  "version": "0.2.2",
+  "description": "",
+  "homepage": "https://github.com/icaliman/d-datepicker",
+  "main": "lib/index.js",
+  "author": "John Caliman",
+  "license": "MIT",
+  "keywords": [
+    "datepicker",
+    "derby-component"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icaliman/d-datepicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icaliman/d-datepicker/issues"
+  },
+  "scripts": {
+    "test": "grunt",
+    "prepublish": "grunt"
+  },
+  "dependencies": {
+    "moment": "~2.7.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-mocha-test": "~0.9.0",
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
