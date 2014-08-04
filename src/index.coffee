@@ -1,3 +1,3 @@
 module.exports = (app, options) ->
-  app.component require './datepicker'
-  app.loadStyles __dirname + '/../styles/style.css'
+  app.component require './share'
+#  app.loadStyles __dirname + '/../styles/style.css'

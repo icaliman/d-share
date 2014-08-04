@@ -1,27 +1,22 @@
 {
-  "name": "d-datepicker",
-  "version": "0.2.2",
+  "name": "d-share",
+  "version": "0.0.1",
   "description": "",
-  "homepage": "https://github.com/icaliman/d-datepicker",
+  "homepage": "https://github.com/icaliman/d-share",
   "main": "lib/index.js",
   "author": "John Caliman",
   "license": "MIT",
   "keywords": [
-    "datepicker",
+    "share",
+    "social",
     "derby-component"
   ],
-  "engines": {
-    "node": "*"
-  },
-  "directories": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/icaliman/d-datepicker.git"
+    "url": "https://github.com/icaliman/d-share.git"
   },
   "bugs": {
-    "url": "https://github.com/icaliman/d-datepicker/issues"
+    "url": "https://github.com/icaliman/d-share/issues"
   },
   "scripts": {
     "test": "grunt",

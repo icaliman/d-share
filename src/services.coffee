@@ -1,0 +1,18 @@
+module.exports =
+  facebook: 'http://www.facebook.com/sharer.php?t={{text}}&u={{url}}',
+  twitter: 'https://twitter.com/intent/tweet?text={{text}}&url={{url}}',
+  googleplus: 'https://plus.google.com/share?url={{url}}'
+  linkedin: 'http://www.linkedin.com/cws/share?url={{url}}&summary={{desc}}'
+  pinterest: 'http://pinterest.com/pin/create/button/?url={{url}}&description={{desc}}&media={{image}}'
+  tumblr: 'http://www.tumblr.com/share?v=3&u={{url}}'
+  reddit: 'http://reddit.com/submit?url={{url}}&text={{text}}'
+  myspace: 'http://www.myspace.com/index.cfm?fuseaction=postto&t={{text}}&c={{desc}}&u={{url}}'
+  email: 'mailto:?subject={{text}}&body={{desc}}%20{{url}}'
+  douban: 'http://shuo.douban.com/!service/share?name={{text}}&href={{url}}&image={{pic}}',
+  kaixin: 'http://www.kaixin001.com/repaste/bshare.php?rtitle={{text}}&rurl={{url}}',
+  netease: 'http://t.163.com/article/user/checkLogin.do?info={{text}}',
+  qq_t: 'http://v.t.qq.com/share/share.php?title={{text}}&url={{url}}&pic={{pic}}',
+  qq_zone: 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title={{text}}&url={{url}}&pics={{pic}}',
+  renren: 'http://share.renren.com/share/buttonshare.do?title={{text}}&link={{url}}',
+  sina: 'http://v.t.sina.com.cn/share/share.php?title={{text}}&url={{url}}&pic={{pic}}',
+  sohu: 'http://t.sohu.com/third/post.jsp?title={{text}}&url={{url}}&content=utf-8'
