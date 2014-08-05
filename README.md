@@ -1,7 +1,7 @@
 d-share
 ========
 
-!["Screenshot of d-share component"](https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png "d-share screenshot")
+<p align="center"><img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png"/></p>
 
 Share your website on multiple third-party social networks.
 
