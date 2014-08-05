@@ -1,7 +1,7 @@
 d-share
 ========
 
-!["Screenshot of d-share component"](https://raw.githubusercontent.com/icaliman/d-datepicker/gh-pages/images/share.png "d-share screenshot")
+!["Screenshot of d-share component"](https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png "d-share screenshot")
 
 Share your website on multiple third-party social networks.
 
