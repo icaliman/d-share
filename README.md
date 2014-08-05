@@ -1,6 +1,8 @@
 d-share
 ========
 
+Derby.js component.
+
 <p align="center"><img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png"/></p>
 
 Share your website on multiple third-party social networks.
