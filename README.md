@@ -29,17 +29,17 @@ Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
 
 # Usage Examples
 
-## Facebook
+#### Facebook
 ```html
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC."/>
 ```
 
-## Pinterest
+#### Pinterest
 ```html
 <share service="pinterest" url="http://derbyjs.com/" desc="Expect more from MVC." image="http://derbyjs.com/images/derby.png"/>
 ```
 
-## Small icon
+### Small icon
 ```html
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC." icon-size="16"/>
 ```
