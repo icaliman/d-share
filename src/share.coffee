@@ -4,6 +4,9 @@ module.exports = class Share
   view: __dirname + '/../views'
   name: 'd-share'
 
+  create: (model) ->
+    model.setNull 'iconSize', 32
+
   create_url: (serviceId) ->
     service = services[serviceId]
 

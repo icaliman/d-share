@@ -17,34 +17,40 @@ Share your website on multiple third-party social networks.
 * Reddit
 * LinkedIn
 * MySpace
+* Sina
+
+## Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
 * Douban
 * Kaixin
 * Netease
 * Renren
-* Sina
 * Sohu
 
 # Usage Examples
 
 ## Facebook
-```jade
-share(service="facebook", url="http://derbyjs.com/", text="Expect more from MVC.")
-    button Share on Facebook
-```
-
-## Twitter
-```jade
-share(service="twitter", url="http://derbyjs.com/", text="Expect more from MVC.")
-    button Share on Twitter
+```html
+<share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC."/>
 ```
 
 ## Pinterest
-```jade
-share(service="pinterest", url="http://derbyjs.com/", desc="Expect more from MVC.", image="http://derbyjs.com/images/derby.png")
-    button Share on Pinterest
+```html
+<share service="pinterest" url="http://derbyjs.com/" desc="Expect more from MVC." image="http://derbyjs.com/images/derby.png"/>
 ```
 
-## Data Attributes
+## Small icon
+```html
+<share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC." icon-size="16"/>
+```
+
+### Use your own button
+```html
+<share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC.">
+    <button>Share on Facebook</button>
+</share>
+```
+
+## Component Attributes
 
 | Attribute | Description | Applies To |
 | :--- | :--- | :--- |
@@ -53,3 +59,4 @@ share(service="pinterest", url="http://derbyjs.com/", desc="Expect more from MVC
 | text | The title or text you want to enter when sharing | Email, Facebook, Twitter, Reddit, MySpace, Douban, Kaixin, Netease, Renren, Sina, Sohu |
 | desc | The description you want to enter when sharing | Email, LinkedIn, Pinterest, MySpace |
 | image | The image you want to enter when sharing | Pinterest, Douban, Sina |
+| icon-size | Icon size, can be 16 or 32, defaults to 32 | optional |

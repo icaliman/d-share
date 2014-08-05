@@ -2,5 +2,9 @@
 
 <index: element="share">
   <a class="share {{service}}" href="{{create_url(service)}}" on-click="openShareWindow($event, $element)">
-    {{content}}
+    {{if content}}
+      {{content}}
+    {{else}}
+      <img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/{{service}}_{{iconSize}}.png" alt="Share on {{service}}"/>
+    {{/}}
   </a>
