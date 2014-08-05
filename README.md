@@ -19,7 +19,8 @@ Share your website on multiple third-party social networks.
 * MySpace
 * Sina
 
-## Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
+Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
+
 * Douban
 * Kaixin
 * Netease
