@@ -1,107 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>d-share by icaliman</title>
 
-<head>
-  <meta charset='utf-8'/>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-  <meta name="description" content="d-datepicker : Datepicker component for Derby.js"/>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>d-share</h1>
+        <p></p>
 
-  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <p class="view"><a href="https://github.com/icaliman/d-share">View the Project on GitHub <small>icaliman/d-share</small></a></p>
 
-  <title>d-datepicker</title>
-</head>
 
-<body>
+        <ul>
+          <li><a href="https://github.com/icaliman/d-share/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/icaliman/d-share/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/icaliman/d-share">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="d-share" class="anchor" href="#d-share"><span class="octicon octicon-link"></span></a>d-share</h1>
 
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-  <header class="inner">
-    <a id="forkme_banner" href="https://github.com/icaliman/d-datepicker">View on GitHub</a>
+<p>Derby.js component.</p>
 
-    <h1 id="project_title">d-datepicker</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png"></p>
 
-    <h2 id="project_tagline">Datepicker component for Derby.js</h2>
+<p>Share your website on multiple third-party social networks.</p>
 
-    <section id="downloads">
-      <a class="zip_download_link" href="https://github.com/icaliman/d-datepicker/zipball/master">Download this project
-        as a .zip file</a>
-      <a class="tar_download_link" href="https://github.com/icaliman/d-datepicker/tarball/master">Download this project
-        as a tar.gz file</a>
-    </section>
-  </header>
-</div>
+<h1>
+<a name="available-sharing-networks" class="anchor" href="#available-sharing-networks"><span class="octicon octicon-link"></span></a>Available Sharing Networks</h1>
 
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-    <h1>
-      <a name="d-datepicker" class="anchor" href="#d-datepicker"><span class="octicon octicon-link"></span></a>d-datepicker
-    </h1>
+<ul>
+<li>Email</li>
+<li>Facebook</li>
+<li>Google+</li>
+<li>Pinterest</li>
+<li>Tumblr</li>
+<li>Twitter</li>
+<li>Reddit</li>
+<li>LinkedIn</li>
+<li>MySpace</li>
+<li>Sina</li>
+</ul><p>Other Sharing Networks, for these we have not icons (Contributors welcome!!!)</p>
 
-    <p>Datepicker component for derby.js.</p>
+<ul>
+<li>Douban</li>
+<li>Kaixin</li>
+<li>Netease</li>
+<li>Renren</li>
+<li>Sohu</li>
+</ul><h1>
+<a name="usage-examples" class="anchor" href="#usage-examples"><span class="octicon octicon-link"></span></a>Usage Examples</h1>
 
-    <ol>
-      <li>Datepicker tied to a standard form input field.</li>
-      <li>Inline datepicker.</li>
-      <li>Localized datepicker.</li>
-    </ol>
+<h4>
+<a name="facebook" class="anchor" href="#facebook"><span class="octicon octicon-link"></span></a>Facebook</h4>
 
-    <p>Please note that this project is inspired by <a href="https://github.com/eternicode/bootstrap-datepicker">Bootstrap-datepicker</a>,
-      and makes use of a css-file from that project.</p>
+<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">/&gt;</span>
+</pre></div>
 
-    <h1>
-      <a name="format" class="anchor" href="#format"><span class="octicon octicon-link"></span></a>Format</h1>
+<h4>
+<a name="pinterest" class="anchor" href="#pinterest"><span class="octicon octicon-link"></span></a>Pinterest</h4>
 
-    <p>Dates set by datepicker will be in the format <code>YYYY-MM-DD</code> (2014-04-16). </p>
+<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"pinterest"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">desc=</span><span class="s">"Expect more from MVC."</span> <span class="na">image=</span><span class="s">"http://derbyjs.com/images/derby.png"</span><span class="nt">/&gt;</span>
+</pre></div>
 
-    <h1>
-      <a name="example-usage" class="anchor" href="#example-usage"><span class="octicon octicon-link"></span></a>Example
-      usage</h1>
+<h4>
+<a name="small-icon" class="anchor" href="#small-icon"><span class="octicon octicon-link"></span></a>Small icon</h4>
 
-    <p>First of make sure to install d-datepicker through npm <code>npm install d-datepicker</code>.</p>
+<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span> <span class="na">icon-size=</span><span class="s">"16"</span><span class="nt">/&gt;</span>
+</pre></div>
 
-    <h2>
-      <a name="including" class="anchor" href="#including"><span class="octicon octicon-link"></span></a>Including</h2>
+<h4>
+<a name="use-your-own-button" class="anchor" href="#use-your-own-button"><span class="octicon octicon-link"></span></a>Use your own button</h4>
 
-<pre>
-  <code>app.component(require('d-datepicker'));</code>
-</pre>
+<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button&gt;</span>Share on Facebook<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/share&gt;</span>
+</pre></div>
 
-    <h2>
-      <a name="in-template" class="anchor" href="#in-template"><span class="octicon octicon-link"></span></a>In template
-    </h2>
+<h2>
+<a name="component-attributes" class="anchor" href="#component-attributes"><span class="octicon octicon-link"></span></a>Component Attributes</h2>
 
-<pre>
-  <code>&ltBody:&gt
-    &lt!-- datepicker tied to a standard form input field --&gt
-    &ltdatepicker active="{{post.date}}"&gt&lt/datepicker&gt
-
-    &lt!-- inline datepicker --&gt
-    &ltdatepicker active="{{post.date}}" inline&gt&lt/datepicker&gt
-
-    &lt!-- localized datepicker --&gt
-    &ltdatepicker active="{{post.date}}" inline lang="fr"&gt&lt/datepicker></code>
-</pre>
-
-    <h2>
-      <a name="retrieve-data" class="anchor" href="#retrieve-data"><span class="octicon octicon-link"></span></a>Retrieve
-      data</h2>
-
-<pre>
-  <code>var pickedDate = model.get('post.date');</code>
-</pre>
-
-  </section>
-</div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-  <footer class="inner">
-    <p class="copyright">d-datepicker maintained by <a href="https://github.com/icaliman">icaliman</a></p>
-
-    <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-  </footer>
-</div>
-
-</body>
+<table>
+<thead><tr>
+<th align="left">Attribute</th>
+<th align="left">Description</th>
+<th align="left">Applies To</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left">service</td>
+<td align="left">The network to share to (please refer to the available networks; must be all lower case)</td>
+<td align="left">All</td>
+</tr>
+<tr>
+<td align="left">url</td>
+<td align="left">The URL you want to share</td>
+<td align="left">All, except Netease</td>
+</tr>
+<tr>
+<td align="left">text</td>
+<td align="left">The title or text you want to enter when sharing</td>
+<td align="left">Email, Facebook, Twitter, Reddit, MySpace, Douban, Kaixin, Netease, Renren, Sina, Sohu</td>
+</tr>
+<tr>
+<td align="left">desc</td>
+<td align="left">The description you want to enter when sharing</td>
+<td align="left">Email, LinkedIn, Pinterest, MySpace</td>
+</tr>
+<tr>
+<td align="left">image</td>
+<td align="left">The image you want to enter when sharing</td>
+<td align="left">Pinterest, Douban, Sina</td>
+</tr>
+<tr>
+<td align="left">icon-size</td>
+<td align="left">Icon size, can be 16 or 32, defaults to 32</td>
+<td align="left">optional</td>
+</tr>
+</tbody>
+</table>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/icaliman">icaliman</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
