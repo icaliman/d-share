@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'/>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <meta name="description" content="d-datepicker : Datepicker component for Derby.js"/>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+  <title>d-datepicker</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    <a id="forkme_banner" href="https://github.com/icaliman/d-datepicker">View on GitHub</a>
+
+    <h1 id="project_title">d-datepicker</h1>
+
+    <h2 id="project_tagline">Datepicker component for Derby.js</h2>
+
+    <section id="downloads">
+      <a class="zip_download_link" href="https://github.com/icaliman/d-datepicker/zipball/master">Download this project
+        as a .zip file</a>
+      <a class="tar_download_link" href="https://github.com/icaliman/d-datepicker/tarball/master">Download this project
+        as a tar.gz file</a>
+    </section>
+  </header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+  <section id="main_content" class="inner">
+    <h1>
+      <a name="d-datepicker" class="anchor" href="#d-datepicker"><span class="octicon octicon-link"></span></a>d-datepicker
+    </h1>
+
+    <p>Datepicker component for derby.js.</p>
+
+    <ol>
+      <li>Datepicker tied to a standard form input field.</li>
+      <li>Inline datepicker.</li>
+      <li>Localized datepicker.</li>
+    </ol>
+
+    <p>Please note that this project is inspired by <a href="https://github.com/eternicode/bootstrap-datepicker">Bootstrap-datepicker</a>,
+      and makes use of a css-file from that project.</p>
+
+    <h1>
+      <a name="format" class="anchor" href="#format"><span class="octicon octicon-link"></span></a>Format</h1>
+
+    <p>Dates set by datepicker will be in the format <code>YYYY-MM-DD</code> (2014-04-16). </p>
+
+    <h1>
+      <a name="example-usage" class="anchor" href="#example-usage"><span class="octicon octicon-link"></span></a>Example
+      usage</h1>
+
+    <p>First of make sure to install d-datepicker through npm <code>npm install d-datepicker</code>.</p>
+
+    <h2>
+      <a name="including" class="anchor" href="#including"><span class="octicon octicon-link"></span></a>Including</h2>
+
+<pre>
+  <code>app.component(require('d-datepicker'));</code>
+</pre>
+
+    <h2>
+      <a name="in-template" class="anchor" href="#in-template"><span class="octicon octicon-link"></span></a>In template
+    </h2>
+
+<pre>
+  <code>&ltBody:&gt
+    &lt!-- datepicker tied to a standard form input field --&gt
+    &ltdatepicker active="{{post.date}}"&gt&lt/datepicker&gt
+
+    &lt!-- inline datepicker --&gt
+    &ltdatepicker active="{{post.date}}" inline&gt&lt/datepicker&gt
+
+    &lt!-- localized datepicker --&gt
+    &ltdatepicker active="{{post.date}}" inline lang="fr"&gt&lt/datepicker></code>
+</pre>
+
+    <h2>
+      <a name="retrieve-data" class="anchor" href="#retrieve-data"><span class="octicon octicon-link"></span></a>Retrieve
+      data</h2>
+
+<pre>
+  <code>var pickedDate = model.get('post.date');</code>
+</pre>
+
+  </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p class="copyright">d-datepicker maintained by <a href="https://github.com/icaliman">icaliman</a></p>
+
+    <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
