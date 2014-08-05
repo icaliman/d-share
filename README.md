@@ -24,19 +24,19 @@ Share your website on multiple third-party social networks.
 
 ## Facebook
 ```jade
-share(service="facebook", url="http://derbyjs.com/", text="Expect more from your MVC.")
+share(service="facebook", url="http://derbyjs.com/", text="Expect more from MVC.")
     button Share on Facebook
 ```
 
 ## Twitter
 ```jade
-share(service="twitter", url="http://derbyjs.com/", text="Expect more from your MVC.")
+share(service="twitter", url="http://derbyjs.com/", text="Expect more from MVC.")
     button Share on Twitter
 ```
 
 ## Pinterest
 ```jade
-share(service="pinterest", url="http://derbyjs.com/", desc="Expect more from your MVC.", image="http://derbyjs.com/images/derby.png")
+share(service="pinterest", url="http://derbyjs.com/", desc="Expect more from MVC.", image="http://derbyjs.com/images/derby.png")
     button Share on Pinterest
 ```
 
