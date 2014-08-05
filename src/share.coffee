@@ -12,3 +12,7 @@ module.exports = class Share
 
     service.replace /{{(.*?)}}/g, (a, m) =>
       if @model.get(m) then encodeURIComponent(@model.get(m)) else ''
+
+  openShareWindow: (e, el) ->
+    window.open el.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'
+    e.preventDefault()
