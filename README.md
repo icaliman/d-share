@@ -39,13 +39,9 @@ app.use(require('d-share'));
 
 ### In template
 
-#### Facebook
 ```html
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC."/>
-```
 
-#### Pinterest
-```html
 <share service="pinterest" url="http://derbyjs.com/" desc="Expect more from MVC." image="http://derbyjs.com/images/derby.png"/>
 ```
 
