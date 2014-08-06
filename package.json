@@ -1,8 +1,8 @@
 {
   "name": "d-share",
   "version": "0.0.10",
-  "description": "",
-  "homepage": "https://github.com/icaliman/d-share",
+  "description": "Share buttons in Derby apps",
+  "homepage": "http://icaliman.github.io/d-share/",
   "main": "lib/index.js",
   "author": "John Caliman",
   "license": "MIT",
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/icaliman/d-share.git"
-  },
-  "bugs": {
-    "url": "https://github.com/icaliman/d-share/issues"
   },
   "scripts": {
     "test": "grunt",

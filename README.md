@@ -1,13 +1,13 @@
 d-share
 ========
 
-Derby.js component.
+Share buttons in Derby apps.
 
 <p align="center"><img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png"/></p>
 
 Share your website on multiple third-party social networks.
 
-# Available Sharing Networks
+## Available Sharing Networks
 * Email
 * Facebook
 * Google+
@@ -27,17 +27,17 @@ Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
 * Renren
 * Sohu
 
-# Usage Examples
+## Usage Examples
 
 First of make sure to install d-share through npm `npm install d-share`.
 
-## Including
+### Including
 
 ```js
 app.use(require('d-share'));
 ```
 
-## In template
+### In template
 
 #### Facebook
 ```html
@@ -61,7 +61,7 @@ app.use(require('d-share'));
 </share>
 ```
 
-## Component Attributes
+### Component Attributes
 
 | Attribute | Description | Applies To |
 | :--- | :--- | :--- |
