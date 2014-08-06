@@ -34,7 +34,7 @@ First of make sure to install d-share through npm `npm install d-share`.
 ## Including
 
 ```js
-app.use(require('d-datepicker'));
+app.use(require('d-share'));
 ```
 
 ## In template
