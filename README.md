@@ -61,7 +61,7 @@ app.use(require('d-share'));
 | :--- | :--- | :--- |
 | service | The network to share to (please refer to the available networks; must be all lower case) | All |
 | url | The URL you want to share | All, except Netease |
-| text | The title or text you want to enter when sharing | Email, Facebook, Twitter, Reddit, MySpace, Douban, Kaixin, Netease, Renren, Sina, Sohu |
+| text | The title or text you want to enter when sharing | Email, Twitter, Reddit, MySpace, Douban, Kaixin, Netease, Renren, Sina, Sohu |
 | desc | The description you want to enter when sharing | Email, LinkedIn, Pinterest, MySpace |
 | image | The image you want to enter when sharing | Pinterest, Douban, Sina |
 | icon-size | Icon size, can be 16 or 32, defaults to 32 | optional |

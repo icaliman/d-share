@@ -1,6 +1,6 @@
 module.exports =
   email: 'mailto:?subject={{text}}&body={{desc}}%20{{url}}'
-  facebook: 'https://www.facebook.com/sharer/sharer.php?t={{text}}&u={{url}}',
+  facebook: 'https://www.facebook.com/sharer/sharer.php?u={{url}}',
   googleplus: 'https://plus.google.com/share?url={{url}}'
   pinterest: 'http://pinterest.com/pin/create/button/?url={{url}}&description={{desc}}&media={{image}}'
   tumblr: 'http://www.tumblr.com/share?v=3&u={{url}}'
