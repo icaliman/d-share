@@ -40,18 +40,13 @@ app.use(require('d-share'));
 ### In template
 
 ```html
+<!-- Facebook -->
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC."/>
-
+<!-- Pinterest -->
 <share service="pinterest" url="http://derbyjs.com/" desc="Expect more from MVC." image="http://derbyjs.com/images/derby.png"/>
-```
-
-#### Small icon
-```html
+<!-- Small icon -->
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC." icon-size="16"/>
-```
-
-#### Use your own button
-```html
+<!-- Use your own button -->
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC.">
     <button>Share on Facebook</button>
 </share>
