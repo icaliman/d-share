@@ -22,9 +22,6 @@
     "test": "grunt",
     "prepublish": "grunt"
   },
-  "dependencies": {
-    "moment": "~2.7.0"
-  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-coffee": "~0.10.1",
