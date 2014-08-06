@@ -29,6 +29,16 @@ Other Sharing Networks, for these we have not icons (Contributors welcome!!!)
 
 # Usage Examples
 
+First of make sure to install d-share through npm `npm install d-share`.
+
+## Including
+
+```js
+app.use(require('d-datepicker'));
+```
+
+## In template
+
 #### Facebook
 ```html
 <share service="facebook" url="http://derbyjs.com/" text="Expect more from MVC."/>
