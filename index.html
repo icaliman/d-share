@@ -18,7 +18,7 @@
 
       <header>
         <h1>d-share</h1>
-        <p>Derby.js component.</p>
+        <p>Share buttons in Derby apps.</p>
       </header>
 
       <div id="banner">
@@ -42,14 +42,14 @@
         <h1>
 <a name="d-share" class="anchor" href="#d-share"><span class="octicon octicon-link"></span></a>d-share</h1>
 
-<p>Derby.js component.</p>
+<p>Share buttons in Derby apps.</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/icaliman/d-share/gh-pages/images/share.png"></p>
 
 <p>Share your website on multiple third-party social networks.</p>
 
-<h1>
-<a name="available-sharing-networks" class="anchor" href="#available-sharing-networks"><span class="octicon octicon-link"></span></a>Available Sharing Networks</h1>
+<h2>
+<a name="available-sharing-networks" class="anchor" href="#available-sharing-networks"><span class="octicon octicon-link"></span></a>Available Sharing Networks</h2>
 
 <ul>
 <li>Email</li>
@@ -70,48 +70,37 @@
 <li>Netease</li>
 <li>Renren</li>
 <li>Sohu</li>
-</ul><h1>
-<a name="usage-examples" class="anchor" href="#usage-examples"><span class="octicon octicon-link"></span></a>Usage Examples</h1>
+</ul><h2>
+<a name="usage-examples" class="anchor" href="#usage-examples"><span class="octicon octicon-link"></span></a>Usage Examples</h2>
 
 <p>First of make sure to install d-share through npm <code>npm install d-share</code>.</p>
 
-<h2>
-<a name="including" class="anchor" href="#including"><span class="octicon octicon-link"></span></a>Including</h2>
+<h3>
+<a name="including" class="anchor" href="#including"><span class="octicon octicon-link"></span></a>Including</h3>
 
 <div class="highlight highlight-js"><pre><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">'d-share'</span><span class="p">));</span>
 </pre></div>
 
-<h2>
-<a name="in-template" class="anchor" href="#in-template"><span class="octicon octicon-link"></span></a>In template</h2>
+<h3>
+<a name="in-template" class="anchor" href="#in-template"><span class="octicon octicon-link"></span></a>In template</h3>
 
-<h4>
-<a name="facebook" class="anchor" href="#facebook"><span class="octicon octicon-link"></span></a>Facebook</h4>
+<div class="highlight highlight-html"><pre><span class="c">&lt;!-- Facebook --&gt;</span>
+<span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">/&gt;</span>
 
-<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">/&gt;</span>
-</pre></div>
+<span class="c">&lt;!-- Pinterest --&gt;</span>
+<span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"pinterest"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">desc=</span><span class="s">"Expect more from MVC."</span> <span class="na">image=</span><span class="s">"http://derbyjs.com/images/derby.png"</span><span class="nt">/&gt;</span>
 
-<h4>
-<a name="pinterest" class="anchor" href="#pinterest"><span class="octicon octicon-link"></span></a>Pinterest</h4>
+<span class="c">&lt;!-- Small icon --&gt;</span>
+<span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span> <span class="na">icon-size=</span><span class="s">"16"</span><span class="nt">/&gt;</span>
 
-<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"pinterest"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">desc=</span><span class="s">"Expect more from MVC."</span> <span class="na">image=</span><span class="s">"http://derbyjs.com/images/derby.png"</span><span class="nt">/&gt;</span>
-</pre></div>
-
-<h4>
-<a name="small-icon" class="anchor" href="#small-icon"><span class="octicon octicon-link"></span></a>Small icon</h4>
-
-<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span> <span class="na">icon-size=</span><span class="s">"16"</span><span class="nt">/&gt;</span>
-</pre></div>
-
-<h4>
-<a name="use-your-own-button" class="anchor" href="#use-your-own-button"><span class="octicon octicon-link"></span></a>Use your own button</h4>
-
-<div class="highlight highlight-html"><pre><span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">&gt;</span>
+<span class="c">&lt;!-- Use your own button --&gt;</span>
+<span class="nt">&lt;share</span> <span class="na">service=</span><span class="s">"facebook"</span> <span class="na">url=</span><span class="s">"http://derbyjs.com/"</span> <span class="na">text=</span><span class="s">"Expect more from MVC."</span><span class="nt">&gt;</span>
     <span class="nt">&lt;button&gt;</span>Share on Facebook<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;/share&gt;</span>
 </pre></div>
 
-<h2>
-<a name="component-attributes" class="anchor" href="#component-attributes"><span class="octicon octicon-link"></span></a>Component Attributes</h2>
+<h3>
+<a name="component-attributes" class="anchor" href="#component-attributes"><span class="octicon octicon-link"></span></a>Component Attributes</h3>
 
 <table>
 <thead><tr>
