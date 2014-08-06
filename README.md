@@ -65,3 +65,6 @@ app.use(require('d-share'));
 | desc | The description you want to enter when sharing | Email, LinkedIn, Pinterest, MySpace |
 | image | The image you want to enter when sharing | Pinterest, Douban, Sina |
 | icon-size | Icon size, can be 16 or 32, defaults to 32 | optional |
+
+## TODO
+* Store icons in another place (currently we use github).
