@@ -1,7 +1,7 @@
 <index:>
   <div>
     <h1>Large icons</h1>
-    {{each _page.urls as #share}}
+    {{each urls as #share}}
     <div style="margin-bottom: 5px;">
       <share service="twitter" url="{{#share.url}}" text="{{#share.desc}}"></share>
       <share service="facebook" url="{{#share.url}}"></share>
@@ -15,7 +15,7 @@
 
   <div>
     <h3>Small icons</h3>
-    {{each _page.urls as #share}}
+    {{each urls as #share}}
     <div style="margin-bottom: 5px;">
       <share service="twitter" url="{{#share.url}}" text="{{#share.desc}}" icon-size="16"></share>
       <share service="facebook" url="{{#share.url}}" icon-size="16"></share>
