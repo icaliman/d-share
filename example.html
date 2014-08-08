@@ -1,6 +1,28 @@
 <index:>
   <div>
-    {{each urls as #share}}
-    <share service="twitter" url="{{#share.url}}" text="{{#share.desc}}"></share>{{#share.desc}}<br>
+    <h1>Large icons</h1>
+    {{each _page.urls as #share}}
+    <div style="margin-bottom: 5px;">
+      <share service="twitter" url="{{#share.url}}" text="{{#share.desc}}"></share>
+      <share service="facebook" url="{{#share.url}}"></share>
+      <share service="googleplus" url="{{#share.url}}"></share>
+      <share service="tumblr" url="{{#share.url}}"></share>
+      <share service="linkedin" url="{{#share.url}}" desc="{{#share.desc}}"></share>
+      {{#share.desc}}
+    </div>
+    {{/each}}
+  </div>
+
+  <div>
+    <h3>Small icons</h3>
+    {{each _page.urls as #share}}
+    <div style="margin-bottom: 5px;">
+      <share service="twitter" url="{{#share.url}}" text="{{#share.desc}}" icon-size="16"></share>
+      <share service="facebook" url="{{#share.url}}" icon-size="16"></share>
+      <share service="googleplus" url="{{#share.url}}" icon-size="16"></share>
+      <share service="tumblr" url="{{#share.url}}" icon-size="16"></share>
+      <share service="linkedin" url="{{#share.url}}" desc="{{#share.desc}}" icon-size="16"></share>
+      {{#share.desc}}
+    </div>
     {{/each}}
   </div>

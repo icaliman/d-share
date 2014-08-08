@@ -2,11 +2,11 @@ module.exports =
   email: 'mailto:?subject={{text}}&body={{desc}}%20{{url}}'
   facebook: 'https://www.facebook.com/sharer/sharer.php?u={{url}}',
   googleplus: 'https://plus.google.com/share?url={{url}}'
-  pinterest: 'http://pinterest.com/pin/create/button/?url={{url}}&description={{desc}}&media={{image}}'
+  pinterest: 'http://pinterest.com/pin/create/button/?url={{url}}&description={{text}}&media={{image}}'
   tumblr: 'http://www.tumblr.com/share?v=3&u={{url}}'
   twitter: 'https://twitter.com/intent/tweet?text={{text}}&url={{url}}',
   reddit: 'http://reddit.com/submit?url={{url}}&text={{text}}'
-  linkedin: 'http://www.linkedin.com/cws/share?url={{url}}&summary={{desc}}'
+  linkedin: 'http://www.linkedin.com/cws/share?url={{url}}&summary={{text}}'
   myspace: 'http://www.myspace.com/index.cfm?fuseaction=postto&t={{text}}&c={{desc}}&u={{url}}'
   douban: 'http://shuo.douban.com/!service/share?name={{text}}&href={{url}}&image={{image}}',
   kaixin: 'http://www.kaixin001.com/repaste/bshare.php?rtitle={{text}}&rurl={{url}}',
