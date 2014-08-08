@@ -1,6 +1,6 @@
 {
   "name": "d-share",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Share buttons in Derby apps",
   "homepage": "http://icaliman.github.io/d-share/",
   "main": "lib/index.js",
